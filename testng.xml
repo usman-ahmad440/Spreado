@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel = "tests">
+    <test name="Login">
+        <classes>
+            <class name="Testcases.LoginApplication">
+                <methods>
+                    <include name="Login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Media Company Listing">
+        <classes>
+            <class name="Testcases.MediaCompanyListing">
+                <methods>
+                    <include name="mediaCompanyListing"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Media Company Page">
+        <classes>
+            <class name="Testcases.MediaCompanyPage">
+                <methods>
+                    <include name="mediaCompanies"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Media Company Search">
+        <classes>
+            <class name="Testcases.MediaCompanySearch">
+                <methods>
+                    <include name="searchMediaCompany"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Subscriber Detail Page">
+        <classes>
+            <class name="Testcases.SubscriberDetailPage">
+                <methods>
+                    <include name="subscriberDetail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Subscriber Listing">
+        <classes>
+            <class name="Testcases.SubscriberListing">
+                <methods>
+                    <include name="validateSubscriberListing"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Validate Active/Inactive Media Company">
+        <classes>
+            <class name="Testcases.ValidateActiveInactiveMediaCompany">
+                <methods>
+                    <include name="activeInactiveButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Validate BreadCrumb On Media Detail Page">
+        <classes>
+            <class name="Testcases.ValidateBreadCrumbOnMediaDetailPage">
+                <methods>
+                    <include name="validateBreadcrumb"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Validate Dashboard Title">
+        <classes>
+            <class name="Testcases.ValidateDashboardTitle">
+                <methods>
+                    <include name="validteTitle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Validate Edi tMedia Company">
+        <classes>
+            <class name="Testcases.ValidateEditMediaCompany">
+                <methods>
+                    <include name="editMediaCompany"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Validate Login Image">
+        <classes>
+            <class name="Testcases.ValidateLoginImage">
+                <methods>
+                    <include name="validteImage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Validate Login Title">
+        <classes>
+            <class name="Testcases.ValidateLoginTitle">
+                <methods>
+                    <include name="validteTitle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Validate Media Companies Title">
+        <classes>
+            <class name="Testcases.ValidateMediaCompaniesTitle">
+                <methods>
+                    <include name="validateMediaTitle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
