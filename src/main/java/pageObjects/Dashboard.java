@@ -23,7 +23,5 @@ public class Dashboard {
     public WebElement getMediaCompany()
     {
         return driver.findElement(mediaCompany);
-
-
     }
 }
