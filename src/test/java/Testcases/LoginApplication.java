@@ -38,6 +38,7 @@ public class LoginApplication extends Base
         data[1][0] = "admin@spreado.com";
         data[1][1] = "admin@spreado";
 
+
         return data;
     }
 }
